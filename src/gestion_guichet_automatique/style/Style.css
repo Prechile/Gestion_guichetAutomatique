@@ -1,0 +1,460 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21 janv. 2019, 22:24:33
+    Author     : Prechil_13
+*/
+
+.btn_admin{
+    -fx-background-color: #5F70FC;
+    -fx-text-fill: #FFFF;
+    -fx-background-radius: 4px;
+}
+
+.btn_admin:hover{
+     -fx-background-color: transparent;
+     -fx-background-radius: 6px;
+    -fx-text-fill: BLACK;
+    -fx-border-color: #5F70FC;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-border-radius: 4px;
+}
+
+.btn_cli{
+    -fx-background-color: #FF2D1E;
+    -fx-text-fill: #FFFF;
+    -fx-background-radius: 4px;
+}
+
+.btn_cli:hover{
+     -fx-background-color: transparent;
+     -fx-background-radius: 6px;
+    -fx-text-fill: BLACK;
+    -fx-border-color: #FF2D1E;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-border-radius: 4px;
+}
+
+.btn_val_admin{
+    -fx-background-color: transparent;
+    -fx-background-radius: 6px;
+    -fx-text-fill: BLACK;
+     -fx-border-color: #5F70FC;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-background-radius: 4px;
+}
+
+.btn_val_admin:hover{
+     -fx-background-color: #5F70FC;
+     -fx-background-radius: 6px;
+    -fx-text-fill:#FFFF;
+    -fx-border-color: #5F70FC;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+}
+
+.btn_val_cli{
+    -fx-background-color: transparent;
+    -fx-background-radius: 6px;
+    -fx-text-fill: BLACK;
+     -fx-border-color: #FF2D1E;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-background-radius: 4px;
+}
+
+.btn_val_cli:hover{
+     -fx-background-color: #FF2D1E;
+     -fx-background-radius: 6px;
+    -fx-text-fill:#FFFF;
+    -fx-border-color: #FF2D1E;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+}
+
+.retour{
+      -fx-background-color: #FF2D1E;
+    -fx-background-image: url("../images/back1.png");
+   -fx-background-attachment: fixed; /* Le fond restera fixe */
+   -fx-background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    -fx-background-position: center; 
+    -fx-border-style: none;
+}
+
+.retour1{
+      -fx-background-color: #5F70FC;
+    -fx-background-image: url("../images/back.png");
+   -fx-background-attachment: fixed; /* Le fond restera fixe */
+   -fx-background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    -fx-background-position: center; 
+    -fx-border-style: none;
+}
+
+.btn_selec_admin{
+    -fx-background-color: #5F70FC;
+    -fx-background-radius: 6px;
+    -fx-text-fill: #FFFF;
+     -fx-border-color: #5F70FC;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-background-radius: 4px;
+}
+
+.btn_selec_admin:hover{
+     -fx-background-color: transparent;
+     -fx-background-radius: 6px;
+    -fx-text-fill:black;
+    -fx-border-color: #5F70FC;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+}
+
+.btn_rech{
+    -fx-background-color: #5F70FC;
+     -fx-background-radius: 6px;
+    -fx-text-fill:white;
+    -fx-border-color: #5F70FC;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-background-image: url("../images/Search.png");
+   -fx-background-attachment: fixed; /* Le fond restera fixe */
+   -fx-background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    -fx-background-position: left; 
+    -fx-border-style: none;
+    
+}
+
+.btn_rech:hover{
+     -fx-background-color: transparent;
+     -fx-background-radius: 6px;
+    -fx-text-fill:black;
+    -fx-border-color: #5F70FC;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+}
+
+.btn_add{
+    -fx-background-color: #5F70FC;
+     -fx-background-radius: 6px;
+    -fx-text-fill:white;
+    -fx-border-color: #5F70FC;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-background-image: url("../images/User.png");
+   -fx-background-attachment: fixed; /* Le fond restera fixe */
+   -fx-background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    -fx-background-position: left; 
+    -fx-border-style: none;
+    
+}
+
+.btn_add:hover{
+     -fx-background-color: transparent;
+     -fx-background-radius: 6px;
+    -fx-text-fill:black;
+    -fx-border-color: #5F70FC;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+}
+
+.btn_mod{
+    -fx-background-color: #5F70FC;
+     -fx-background-radius: 6px;
+    -fx-text-fill:white;
+    -fx-border-color: #5F70FC;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-background-image: url("../images/Change.png");
+   -fx-background-attachment: fixed; /* Le fond restera fixe */
+   -fx-background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    -fx-background-position: left; 
+    -fx-border-style: none;
+    
+}
+
+.btn_mod:hover{
+     -fx-background-color: transparent;
+     -fx-background-radius: 6px;
+    -fx-text-fill:black;
+    -fx-border-color: #5F70FC;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+}
+
+.btn_supp{
+    -fx-background-color: #5F70FC;
+     -fx-background-radius: 6px;
+    -fx-text-fill:white;
+    -fx-border-color: #5F70FC;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-background-image: url("../images/Delete.png");
+   -fx-background-attachment: fixed; /* Le fond restera fixe */
+   -fx-background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    -fx-background-position: left; 
+    -fx-border-style: none;
+    
+}
+
+.btn_supp:hover{
+     -fx-background-color: transparent;
+     -fx-background-radius: 6px;
+    -fx-text-fill:black;
+    -fx-border-color: #5F70FC;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+}
+
+.fond_1{
+   -fx-background-image:url("../images/90.jpg") ;
+    -fx-background-repeat: no-repeat;
+     -fx-background-attachment: fixed;
+     -fx-background-position: center;
+} 
+
+.btn_quit{
+    -fx-background-color: #5F70FC;
+   -fx-text-fill: White;
+    -fx-background-image: url("../images/Quit.png");
+   -fx-background-attachment: fixed; /* Le fond restera fixe */
+   -fx-background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    -fx-background-position: left; 
+    -fx-border-style: none;
+}
+
+.btn_quit:hover{
+    -fx-background-color: transparent;
+   -fx-text-fill: Black;
+    -fx-background-image: url("../images/Quit.png");
+   -fx-background-attachment: fixed; /* Le fond restera fixe */
+   -fx-background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    -fx-background-position: left; 
+    -fx-background-radius: 6px;
+    -fx-border-color: #5F70FC;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+}
+
+.btn_dec{
+    -fx-background-color: #5F70FC;
+   -fx-text-fill: White;
+    -fx-background-image: url("../images/out.png");
+   -fx-background-attachment: fixed; /* Le fond restera fixe */
+   -fx-background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    -fx-background-position: left; 
+    -fx-border-style: none;
+}
+
+.btn_dec:hover{
+    -fx-background-color: transparent;
+   -fx-text-fill: Black;
+    -fx-background-image: url("../images/out.png");
+   -fx-background-attachment: fixed; /* Le fond restera fixe */
+   -fx-background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    -fx-background-position: left; 
+    -fx-background-radius: 6px;
+    -fx-border-color: #5F70FC;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+}
+
+
+.btn_depo{
+    -fx-background-color: #5F70FC;
+   -fx-text-fill: White;
+    -fx-background-image: url("../images/depot.png");
+   -fx-background-attachment: fixed; /* Le fond restera fixe */
+   -fx-background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    -fx-background-position: left; 
+    -fx-border-style: none;
+}
+
+.btn_depo:hover{
+    -fx-background-color: transparent;
+   -fx-text-fill: Black;
+    -fx-background-image: url("../images/depot.png");
+   -fx-background-attachment: fixed; /* Le fond restera fixe */
+   -fx-background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    -fx-background-position: left; 
+    -fx-background-radius: 6px;
+    -fx-border-color: #5F70FC;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+}
+
+
+.btn_compte{
+    -fx-background-color: #5F70FC;
+   -fx-text-fill: White;
+    -fx-background-image: url("../images/compte.png");
+   -fx-background-attachment: fixed; /* Le fond restera fixe */
+   -fx-background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    -fx-background-position: left; 
+    -fx-border-style: none;
+}
+
+.btn_compte:hover{
+    -fx-background-color: transparent;
+   -fx-text-fill: Black;
+    -fx-background-image: url("../images/compte.png");
+   -fx-background-attachment: fixed; /* Le fond restera fixe */
+   -fx-background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    -fx-background-position: left; 
+    -fx-background-radius: 6px;
+    -fx-border-color: #5F70FC;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+}
+
+.btn_client{
+    -fx-background-color: #5F70FC;
+   -fx-text-fill: White;
+    -fx-background-image: url("../images/client.png");
+   -fx-background-attachment: fixed; /* Le fond restera fixe */
+   -fx-background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    -fx-background-position: left; 
+    -fx-border-style: none;
+}
+
+.btn_client:hover{
+    -fx-background-color: transparent;
+   -fx-text-fill: Black;
+    -fx-background-image: url("../images/client.png");
+   -fx-background-attachment: fixed; /* Le fond restera fixe */
+   -fx-background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    -fx-background-position: left; 
+    -fx-background-radius: 6px;
+    -fx-border-color: #5F70FC;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+}
+
+.btn_retrait{
+    -fx-background-color: #FF2D1E;
+   -fx-text-fill: White;
+    -fx-background-image: url("../images/10.png");
+   -fx-background-attachment: fixed; /* Le fond restera fixe */
+   -fx-background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    -fx-background-position: left; 
+    -fx-border-style: none;
+}
+
+.btn_retrait:hover{
+    -fx-background-color: transparent;
+   -fx-text-fill: Black;
+    -fx-background-image: url("../images/10.png");
+   -fx-background-attachment: fixed; /* Le fond restera fixe */
+   -fx-background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    -fx-background-position: left; 
+    -fx-background-radius: 6px;
+    -fx-border-color: #FF2D1E;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+}
+
+.btn_consul{
+    -fx-background-color: #FF2D1E;
+   -fx-text-fill: White;
+    -fx-background-image: url("../images/20.png");
+   -fx-background-attachment: fixed; /* Le fond restera fixe */
+   -fx-background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    -fx-background-position: left; 
+    -fx-border-style: none;
+}
+
+.btn_consul:hover{
+    -fx-background-color: transparent;
+   -fx-text-fill: Black;
+    -fx-background-image: url("../images/20.png");
+   -fx-background-attachment: fixed; /* Le fond restera fixe */
+   -fx-background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    -fx-background-position: left; 
+    -fx-background-radius: 6px;
+    -fx-border-color: #FF2D1E;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+}
+
+.btn_modi{
+    -fx-background-color: #5B6BF0;
+   -fx-text-fill: White;
+    -fx-background-image: url("../images/30.png");
+   -fx-background-attachment: fixed; /* Le fond restera fixe */
+   -fx-background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    -fx-background-position: left; 
+    -fx-border-style: none;
+}
+
+.btn_modi:hover{
+    -fx-background-color: transparent;
+   -fx-text-fill: Black;
+    -fx-background-image: url("../images/30.png");
+   -fx-background-attachment: fixed; /* Le fond restera fixe */
+   -fx-background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    -fx-background-position: left; 
+    -fx-background-radius: 6px;
+    -fx-border-color: #5F70FC;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+}
+
+.btn_quit{
+    -fx-background-color: #FF2D1E;
+   -fx-text-fill: White;
+    -fx-background-image: url("../images/Quit.png");
+   -fx-background-attachment: fixed; /* Le fond restera fixe */
+   -fx-background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    -fx-background-position: left; 
+    -fx-border-style: none;
+}
+
+.btn_quit:hover{
+    -fx-background-color: transparent;
+   -fx-text-fill: Black;
+    -fx-background-image: url("../images/Quit.png");
+   -fx-background-attachment: fixed; /* Le fond restera fixe */
+   -fx-background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    -fx-background-position: left; 
+    -fx-background-radius: 6px;
+    -fx-border-color: #FF2D1E;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+}
+
+.fond_0{
+    
+     -fx-background-image: url("../images/ma.jpg");
+   -fx-background-attachment: fixed; /* Le fond restera fixe */
+   -fx-background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    -fx-background-position: center; 
+}
+
+.fond_2{
+    
+     -fx-background-image: url("../images/ret.jpg");
+   -fx-background-attachment: fixed; /* Le fond restera fixe */
+   -fx-background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    -fx-background-position: center; 
+}
+
+.btn_actualiser{
+    -fx-background-image: url("../images/actu.png");
+   -fx-background-attachment: fixed; /* Le fond restera fixe */
+   -fx-background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    -fx-background-position: center; 
+    -fx-border-style: none;
+}
+
+.fond_3{
+      -fx-background-image: url("../images/100.jpg");
+   -fx-background-attachment: fixed; /* Le fond restera fixe */
+   -fx-background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    -fx-background-position: center; 
+    -fx-border-style: none;
+}

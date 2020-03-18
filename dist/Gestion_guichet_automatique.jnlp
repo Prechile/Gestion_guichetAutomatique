@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Gestion_guichet_automatique.jnlp">
+  <information>
+    <title>Gestion_guichet_automatique</title>
+    <vendor>Prechil_13</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Gestion_guichet_automatique.jar" size="18794858" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.23-bin.jar" size="834126" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Gestion_guichet_automatique" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="gestion_guichet_automatique.forms.Gestion_guichet_automatique"  name="Gestion_guichet_automatique" />
+  <update check="always"/>
+</jnlp>

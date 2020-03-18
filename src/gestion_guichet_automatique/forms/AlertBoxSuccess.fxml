@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="570.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gestion_guichet_automatique.forms.AlertBoxSuccessController">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="570.0" style="-fx-background-color: white;">
+         <children>
+            <TextFlow fx:id="textFlow" layoutX="206.0" layoutY="24.0" prefHeight="48.0" prefWidth="352.0">
+               <children>
+                  <Text fx:id="text" strokeType="OUTSIDE" strokeWidth="0.0" text="Opération reussie" wrappingWidth="33.13671875">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                  </Text>
+               </children>
+            </TextFlow>
+            <Button layoutX="364.0" layoutY="83.0" mnemonicParsing="false" onAction="#ok" prefHeight="31.0" prefWidth="111.0" style="-fx-background-color: orange;" text="Continuer">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Button>
+            <ImageView fitHeight="94.0" fitWidth="151.0" layoutX="35.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/success.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
